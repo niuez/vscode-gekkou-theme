@@ -1,0 +1,26 @@
+{
+  "name": "gekkou-theme",
+  "displayName": "gekkou-theme",
+  "description": "blue and yellow simple theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "author": "niuez",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:niuez/vscode-gekkou-theme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "gekkou",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gekkou-color-theme.json"
+      }
+    ]
+  }
+}
